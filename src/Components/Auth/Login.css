@@ -1,0 +1,53 @@
+.login {
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .login > form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login > form > input {
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgb(9, 209, 245);
+  }
+  
+  .login > form > button {
+    line-height: 30px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(7, 167, 241);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .login > form > button:hover {
+    opacity: 88%;
+  }
+  
+  .login__register {
+    color: teal;
+    cursor: pointer;
+  }
+  .image__container{
+    display: grid;
+    place-items: center;
+  }
+  .image__container > img{
+    object-fit: contain;
+    height: 70px;
+    padding: 15px;
+  }

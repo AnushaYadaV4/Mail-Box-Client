@@ -1,0 +1,62 @@
+.main{
+    margin: 0 30px;
+    width: 80%;
+}
+
+
+.add_section{
+    padding-bottom: 14px;
+    border-bottom: 2px solid antiquewhite;;
+}
+
+.add_section input{
+    border-color: transparent;
+}
+.add_section input:focus{
+    outline: none;
+}
+
+.compose_section{
+    display: flex;
+    flex-direction: column;
+}
+.compose_section input{
+    border-color: transparent;
+    margin: 14px 0;
+    border-bottom-color: antiquewhite;
+    padding-bottom: 8px;
+}
+
+.compose_section input:focus{
+    outline: none;
+}
+.send_button{
+    margin-top: 22px;
+    padding: 5px 12px;
+    background: pink;
+    border: 1px solid pink;
+    border-radius: 9px;
+}
+
+.sendMail{
+    position:absolute;
+    bottom:0px;
+    right:50px;
+    background-color: #404040;
+    height: 40%;
+    width: 40%;
+    max-width: 500px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 5px 7px 0px rgba(0,0,0.24);
+
+}
+
+.sendMail__send{
+    background-color: aqua;
+    text-transform: capitalize !important;
+    margin: 15px !important;
+}
